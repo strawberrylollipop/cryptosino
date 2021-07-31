@@ -1,0 +1,470 @@
+ul {
+    list-style-type: none;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+.homeContainer{
+display: flex;
+}
+.leftBar{
+    
+flex-grow: 1;
+flex-basis: 220px;
+width: 200px;
+height: calc(100vh - 50px);
+overflow-y: scroll;
+position: sticky;
+top:50px;
+min-width: 220px;
+
+}
+.container{
+    width: 200px;
+    padding: 20px;
+}
+.middleBar{
+flex-grow: 8;
+}
+.rightBar{
+flex-grow: 4;
+}
+.left{
+    width:200px;
+}
+.picture{
+    height:200px;
+    width:200px;
+
+}
+.picframe{
+    width:200px;
+    height:200px;
+    overflow:hidden;
+    border-radius: 50%;
+}
+.navbar{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+ul.menuList {
+    display: flex;
+    flex-direction: column;
+}
+li.listItem {
+    display: flex;
+    align-items: center;
+}
+.menuWrapper {
+    display: flex;
+}
+
+.containerLeft {
+    display: flex;
+    justify-content: space-around;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.brandname{
+    flex-grow: 1;
+}
+.searchbar{
+    flex-grow: 8;
+}
+.profilestuff{
+    flex-grow: 4;
+}
+.homeContainer input, .navbar input{
+    width:80%
+}
+.justify-content-space-between{
+    justify-content: space-between;
+}
+
+
+.postProf{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    padding-bottom: 8px;
+    padding-top: 20px;
+}
+.profImg{
+    height: 40px;
+    width: 40px;
+
+}
+.postProfPic{
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.postProfName{
+    padding-left: 10px;
+}
+.postProfLN{
+    padding-left: 5px;
+}
+.postBody{
+    padding-left: 10px;
+    padding-bottom: 10px;
+
+}
+.kommentYaz{
+    display: flex;
+    align-items: center;
+    width: 600px;
+}
+.profDiv{
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.kommentler{
+    margin-left: 10px;
+}
+.singleComment{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    justify-content: space-between;
+    width: 400px;
+}
+.commentProf{
+    
+}
+.commentProfDiv{
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.divName{
+
+}
+.divLN{
+    margin-left: 5px;
+
+}
+.profNameLN{
+    display: flex;
+    font-weight: bold;
+}
+.liker {
+    display: flex;
+    position: relative;
+    align-items: center;
+
+}
+.likeicon {
+    position: relative;
+}
+.likecount {
+    font-weight: bold;
+}
+.like_siyahi{
+    display: none;
+}
+.writeComment{
+    display: block;
+    width: 100%;
+    height: 20px;
+    background: #fff;
+    font-size: 10pt;
+    text-transform: capitalize;
+    padding-left: 20px;
+    color: black;
+  }
+  .singleCommentLeft{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .singleCommentleft {
+    display: flex;
+    align-items: center;
+}
+.CommentForm{
+    width: 79%;
+}
+.searchProf {
+    display: flex;
+    align-items: center;
+}
+.FrReqBar{
+    display: flex;
+}
+.w400{
+    width:600px
+}
+.frReqInf{
+    display: flex;
+}
+.rightBar{
+    margin-right: 200px;
+}
+.postProfPic{
+    margin-right: 20px;
+}
+.frReqInf button{
+    margin-left: 20px;
+}
+.brandname{
+    display: flex;
+    align-items: center;
+}
+.brandname svg{
+    margin-right: 10px;
+}
+.mflex{
+    display: flex;
+}
+.w100p{
+    width: 100%;
+}
+
+.ml10{
+    margin-left: 10px;
+}
+.mr10{
+    margin-right: 10px;
+}
+.ml45{
+    margin-left: 45px;
+}
+.mt40-i{
+    margin-top: 30px !important;
+}
+.mt10{
+    margin-top: 10px;
+}
+.mh-90{
+    min-height: 90px;
+}
+.flex{
+    display: flex;
+}
+.c-out{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.c-in{
+    height: 100px;
+    width: 100px;
+
+}
+.c-out50{
+    width: 50px;
+    height: 50px;
+border-radius: 50%;
+    overflow: hidden;
+}
+.c-in50{
+    width: 50px;
+    height: 50px;
+}
+.align-items-center{
+    align-items: center;
+
+}
+
+
+.m-auto{
+    margin: auto;
+
+}
+.w100{
+    width: 100px;
+}
+
+.no-decoration{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+.m10{
+    margin: 10px;
+}
+.w60{
+    width: 60px;
+}
+.h60{
+    height: 60px;
+}
+.m0{
+    margin: 0;
+}
+.c-p{
+    cursor: pointer;
+}
+.w300{
+    width: 300px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 500px;
+    margin: 30vh auto;  
+  }
+  .form-form-div {
+    z-index: 1;
+  }
+  .form-form-div, .form-button-div {
+    transition: 1s ease-out;
+  }
+  form {
+    border: 1px solid lightgray;
+    border-radius: 5px;  
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+  }
+  input, button {
+    margin: 5px;
+  }
+  
+  /*SKELETON CSS*/
+  
+
+  .form-container select{
+      width: 98%;
+  }
+  /*INPUT STYLING*/
+  .form-container input,
+  .form-container option,
+  input[type="text"],
+  input[type="email"],
+
+  input[type="password"],
+  textarea,
+  select {
+    height: 38px;
+    padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+    background-color: #fff;
+    border: 1px solid #D1D1D1;
+    border-radius: 4px;
+    box-shadow: none;
+    box-sizing: border-box; }
+  input[type="text"]:focus,
+  input[type="password"]:focus,
+  textarea:focus {
+    border: 1px solid #401a00;
+    outline: 0; }
+  
+  /*BUTTON STYLING*/
+  .form-container .form-button,
+  .form-container button,
+  .form-container input[type="submit"],
+  .form-container input[type="reset"],
+  .form-container input[type="button"] {
+    display: inline-block;
+    height: 38px;
+    padding: 0 30px;
+    color: #555;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    cursor: pointer;
+    box-sizing: border-box; }
+  .form-button:hover,
+  button:hover,
+  input[type="submit"]:hover,
+  input[type="reset"]:hover,
+  input[type="button"]:hover,
+  .form-button:focus,
+  button:focus,
+  input[type="submit"]:focus,
+  input[type="reset"]:focus,
+  input[type="button"]:focus {
+    color: #333;
+    border-color: #888;
+    outline: 0; }
+  .form-button.form-button-primary,
+  button.form-button-primary,
+  input[type="submit"].form-button-primary,
+  input[type="reset"].form-button-primary,
+  input[type="button"].form-button-primary {
+    color: #FFF;
+    background-color: #401a00;
+    border-color: #401a00; }
+  .form-button.form-button-primary:hover,
+  button.form-button-primary:hover,
+  input[type="submit"].form-button-primary:hover,
+  input[type="reset"].form-button-primary:hover,
+  input[type="button"].form-button-primary:hover,
+  .form-button.form-button-primary:focus,
+  button.form-button-primary:focus,
+  input[type="submit"].form-button-primary:focus,
+  input[type="reset"].form-button-primary:focus,
+  input[type="button"].form-button-primary:focus {
+    color: #FFF;
+    background-color: #401a00;
+    border-color: #401a00; }
+
+
+.red{
+    color:red
+}
+.qeydiyyat{
+    margin: 10vh auto;
+}
+.d-n{
+    display: none !important;
+}
+.up-label{
+    min-width: fit-content;
+}
+.ml5{
+    margin-left: 5px;
+}
