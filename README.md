@@ -1,5 +1,5 @@
 <h1>ÇaxırBook Social Media</h1>
-<h2>Django Rest Framework + React</h2>
+<h2>Django Rest Framework API + React</h2>
 
 Working Example <img width="50px" src="https://cdn-icons-png.flaticon.com/512/1150/1150626.png"/> <a href="http://nurhesen50.pythonanywhere.com/">http://nurhesen50.pythonanywhere.com/</a>
 
