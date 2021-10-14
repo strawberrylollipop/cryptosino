@@ -15,7 +15,7 @@ virtualenv .
 Scripts\activate
 pip install -r requirements.txt
 
-`````````
+``````````
 
 <h1>Installation Linux</h1><br><br>
 
@@ -25,4 +25,4 @@ virtualenv .
 Lib\activate
 pip install -r requirements.txt
 
-`````````
+``````````
