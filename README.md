@@ -26,3 +26,19 @@ Lib\activate
 pip install -r requirements.txt
 
 ``````````
+
+
+
+<h1>Features</h1><br>
+
+```diff
+
++ Create Profile With or Without Profile Picture              V
++ Create Posts With or Without Profile Picture                V
++ Like & Write Comment to Posts                               V
++ Show Friends Posts in the Main Page                         V
++ Api Pagination(show only last 3 posts and last 5 comments)  V
++ Send & Accept Friend Requests                               V
++ Search Profiles                                             V
+- Mobile Version                                              X
+```
