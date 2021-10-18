@@ -22,7 +22,7 @@ Working Example: <img width="50px" src="https://cdn-icons-png.flaticon.com/512/1
 
 <br>
 Walkthrough Video:<br><br>
-<a href="https://www.youtube.com/watch?v=vON92Vosf_M"><img src="https://i.ibb.co/WztCRQ0/cccas.png" alt="cccas" border="0"></a>
+<a href="https://www.youtube.com/watch?v=l-dbaM2bbaM"><img src="https://i.ibb.co/WztCRQ0/cccas.png" alt="cccas" border="0"></a>
 <br><br>
 <h1>Installation Windows</h1><br><br>
 
